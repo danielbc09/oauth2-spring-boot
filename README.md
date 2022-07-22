@@ -1,4 +1,4 @@
-# auth2-spring-boot
+# Oauth2-spring-boot
 
 OAuth 2.0 Spring Boot Course
 
@@ -20,9 +20,9 @@ OAuth 2.0 Spring Boot Course
 
 ## Section 5: Creating Spring resource server.
 
-  - Created resource server.
-  - Access to the resource server using spring-oath2.
-  - get a token object from a resource server endpoint. 
+    - Created resource server.
+    - Access to the resource server using spring-oath2.
+    - get a token object from a resource server endpoint. 
 
 ## Section 6: Scoped based access control 
 
@@ -35,4 +35,22 @@ OAuth 2.0 Spring Boot Course
     - roles like User Admin super Admin, are also a collection of authorities.
     - Authority priviliges that have a role.
     - Access to a resource based on Roles
+
+## Section 8: Method Level Security
+
+    - You can use security anotation for a method level authorization.
+    - @Authorized, @PreAuthorize, @PostAuthorize.
+    - You can also used this methods in a Class. 
+
+## Section 9: Resource server behind API gateway
     
+    - Architecture based on microservices.
+    - Spring cloud API gateway.
+    - Created two more microservices 
+    - access to the microservices through the API gateway
+
+
+## Resources:
+    
+    - https://github.com/simplyi/ResourceServer/tree/before-adding-role-based-acceess-control   
+    - https://codejava.net/frameworks/spring-boot/fix-websecurityconfigureradapter-deprecated
